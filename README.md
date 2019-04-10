@@ -4,21 +4,21 @@ It can be used to modify your input images in various smart ways as in figures b
 
 This paper marks a jump in resolution, quality and preservation of identity in face images over the previous PIONEER incarnation, and makes the feature modifications more explicit.
 
-<img src="samples/fig_manip/100.jpg" alt="alt text" width="15%" height="15%" border="3"/>
+<img src="samples/fig_manip/100.jpg" alt="alt text" width="15%" height="15%" style="border:5px solid black"/>
 <img src="samples/fig_manip/101.jpg" alt="alt text" width="15%" height="15%"/>
 <img src="samples/fig_manip/102.jpg" alt="alt text" width="15%" height="15%"/>
 <img src="samples/fig_manip/103.jpg" alt="alt text" width="15%" height="15%"/>
 <img src="samples/fig_manip/104.jpg" alt="alt text" width="15%" height="15%"/>
 <img src="samples/fig_manip/105.jpg" alt="alt text" width="15%" height="15%"/>
 <br/>
-<img src="samples/fig_manip/200.jpg" alt="alt text" width="15%" height="15%" border="3"/>
+<img src="samples/fig_manip/200.jpg" alt="alt text" width="15%" height="15%" style="border:5px solid black"/>
 <img src="samples/fig_manip/201.jpg" alt="alt text" width="15%" height="15%"/>
 <img src="samples/fig_manip/202.jpg" alt="alt text" width="15%" height="15%"/>
 <img src="samples/fig_manip/203.jpg" alt="alt text" width="15%" height="15%"/>
 <img src="samples/fig_manip/204.jpg" alt="alt text" width="15%" height="15%"/>
 <img src="samples/fig_manip/205.jpg" alt="alt text" width="15%" height="15%"/>
 <br/>
-<img src="samples/fig_manip/300.jpg" alt="alt text" width="15%" height="15%" border="3"/>
+<img src="samples/fig_manip/300.jpg" alt="alt text" width="15%" height="15%" style="border:5px solid black"/>
 <img src="samples/fig_manip/301.jpg" alt="alt text" width="15%" height="15%"/>
 <img src="samples/fig_manip/302.jpg" alt="alt text" width="15%" height="15%"/>
 <img src="samples/fig_manip/303.jpg" alt="alt text" width="15%" height="15%"/>
