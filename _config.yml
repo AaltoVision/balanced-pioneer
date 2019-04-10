@@ -1,0 +1,4 @@
+theme: jekyll-theme-cayman
+title: "Towards Photographic Image Manipulation with Balanced Growing of Generative Autoencoders"
+description: "Ari Heljakka, Arno Solin, Juho Kannala<br />Published in ACCV 2018"
+markdown: kramdown
