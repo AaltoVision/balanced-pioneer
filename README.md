@@ -1,5 +1,8 @@
-# balanced-pioneer
-Towards Photographic Image Manipulation with Balanced Growing of Generative Autoencoders
+PIONEER is a generative neural network model that learns how certain kinds of images, such as faces, are structured.
+
+It can be used to modify your input images in various smart ways as in figures below, without losing sharpness in the output. The best-known generative models, GANs, cannot normally make this kind of general modifications to *existing input images* (unless they are extended with an encoder).
+
+This paper marks a jump in resolution, quality and preservation of identity in face images over the previous PIONEER incarnation, and makes the feature modifications more explicit.
 
 <img src="samples/fig_manip/100.jpg" alt="alt text" width="15%" height="15%"/>
 <img src="samples/fig_manip/101.jpg" alt="alt text" width="15%" height="15%"/>
@@ -23,14 +26,8 @@ Towards Photographic Image Manipulation with Balanced Growing of Generative Auto
 <img src="samples/fig_manip/305.jpg" alt="alt text" width="15%" height="15%"/>
 
 
-Figure: For real input images (far left), our model can change various features that it has learnt in a fully unsupervised manner.
+Figure: For real input images (far left), our model can change various features that it has learnt in a fully unsupervised manner - no class information was used during training.
 
-## Non-technical Summary
-
-PIONEER is a generative neural network model that learns how certain kinds of images, such as faces, are structured.
-It can be used to modify your input images in various smart ways (e.g. change the expression, make a male face more feminine, etc.) without losing sharpness in the output. The best-known generative models, GANs, cannot normally make this kind of general modifications to *existing input images*.
-
-This paper marks a jump in resolution and quality of the face images over the previous PIONEER incarnation, and makes the feature modifications more explicit.
 
 ## Abstract
 
