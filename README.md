@@ -28,14 +28,14 @@ This paper marks a jump in resolution, quality and preservation of identity in f
 
 Figure: For real input images (left), our model can change various features (reconstruct, smile on/off, switch sex, rotate, add sunglasses) that it has learnt in a fully unsupervised manner - no class information was used during training.
 
-The changes can also be applied gradually. For various transformations on the following input images, please see the video below:<br/>
+The changes can also be applied gradually. Please see the video below for applying various transformations on the following input images:<br/>
 <img src="samples/fig_manip/video/2330.jpg" alt="alt text" width="15%" height="15%"/>
 <img src="samples/fig_manip/video/10150.jpg" alt="alt text" width="15%" height="15%"/>
 <img src="samples/fig_manip/video/10155.jpg" alt="alt text" width="15%" height="15%"/>
 <img src="samples/fig_manip/video/10160.jpg" alt="alt text" width="15%" height="15%"/>
 <br/>
 
-<iframe width="1116" height="628" src="https://www.youtube.com/embed/XhxKLkFVgjY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="515" height="290" src="https://www.youtube.com/embed/XhxKLkFVgjY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## Abstract
