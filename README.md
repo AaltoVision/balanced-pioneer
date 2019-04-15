@@ -1,8 +1,8 @@
-PIONEER is a generative neural network model that learns how certain kinds of images, such as faces, are structured.
+PIONEER is a generative neural network model that learns  a well-structured representation of certain kinds of images, such as faces.
 
 It can be used to modify your input images in various smart ways as in figures below, without losing sharpness in the output. The best-known generative models, GANs, cannot normally make this kind of general modifications to *existing input images* (unless they are extended with an encoder).
 
-This paper marks a jump in resolution, quality and preservation of identity in face images over the previous PIONEER incarnation, and makes the feature modifications more explicit.
+This paper marks a jump in resolution, quality and preservation of identity in face images over the previous PIONEER incarnation, and makes the feature modification capability more explicit. While the results were demonstrated on face data, the method is general.
 
 <img src="samples/fig_manip/100.jpg" alt="alt text" width="15%" height="15%" style="border:5px solid black"/>
 <img src="samples/fig_manip/101.jpg" alt="alt text" width="15%" height="15%"/>
@@ -28,15 +28,6 @@ This paper marks a jump in resolution, quality and preservation of identity in f
 
 Figure: For real input images (left), our model can change various features (reconstruct, smile on/off, switch sex, rotate, add sunglasses) that it has learnt in a fully unsupervised manner - no class information was used during training.
 
-The changes can also be applied gradually. Please see the video below for applying various transformations on the following input images:<br/>
-<img src="samples/fig_manip/video/2330.jpg" alt="alt text" width="15%" height="15%"/>
-<img src="samples/fig_manip/video/10150.jpg" alt="alt text" width="15%" height="15%"/>
-<img src="samples/fig_manip/video/10155.jpg" alt="alt text" width="15%" height="15%"/>
-<img src="samples/fig_manip/video/10160.jpg" alt="alt text" width="15%" height="15%"/>
-<br/>
-
-<iframe width="515" height="290" src="https://www.youtube.com/embed/XhxKLkFVgjY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 
 ## Abstract
 
@@ -44,9 +35,14 @@ We build on recent advances in progressively growing generative autoencoder mode
 
 ## Materials
 
-[Paper pre-print](https://arxiv.org/abs/[todo])
+[Paper pre-print](https://arxiv.org/abs/1904.06145)
 
-Code (PyTorch) and pre-trained models to be released later.
+Video show-casing how to gradually apply various transformations on new input images:
+
+<iframe width="515" height="290" src="https://www.youtube.com/embed/XhxKLkFVgjY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Code (PyTorch): to be released later
+Pre-trained models: to be released later
 
 ## Support
 
@@ -61,7 +57,7 @@ Please cite our work as follows:
       title = {Towards Photographic Image Manipulation with Balanced Growing of Generative Autoencoders},
      author = {Heljakka,Ari and Solin, Arno
                and Kannala, Juho},
-       year = {2019},
-       TODO
+    journal = {arXiv preprint arXiv:1904.06145},
+       year = {2019}
 }
 ```
