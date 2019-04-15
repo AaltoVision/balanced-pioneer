@@ -1,6 +1,6 @@
 PIONEER is a generative neural network model that learns  a well-structured representation of certain kinds of images, such as faces.
 
-It can be used to modify your input images in various smart ways as in figures below, without losing sharpness in the output. The best-known generative models, GANs, cannot normally make this kind of general modifications to *existing input images* (unless they are extended with an encoder).
+It can be used to modify your input images in various smart ways as in figures below, without losing sharpness in the output. The best-known generative models, GANs, cannot normally make this kind of general modifications to *real input images* (unless they are extended with an encoder).
 
 This paper marks a jump in resolution, quality and preservation of identity in face images over the previous PIONEER incarnation, and makes the feature modification capability more explicit. While the results were demonstrated on face data, the method is general.
 
@@ -42,6 +42,7 @@ Video show-casing how to gradually apply various transformations on new input im
 <iframe width="515" height="290" src="https://www.youtube.com/embed/XhxKLkFVgjY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Code (PyTorch): to be released later
+<br/>
 Pre-trained models: to be released later
 
 ## Support
