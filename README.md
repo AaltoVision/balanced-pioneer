@@ -41,9 +41,7 @@ Video show-casing how to gradually apply various transformations on new input im
 
 <iframe width="515" height="290" src="https://www.youtube.com/embed/XhxKLkFVgjY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Code (PyTorch): to be released later
-<br/>
-Pre-trained models: to be released later
+Code (PyTorch) with Pre-trained models: https://github.com/AaltoVision/balanced-pioneer
 
 ## Support
 
@@ -54,11 +52,11 @@ For all correspondence, please contact ari.heljakka@aalto.fi.
 Please cite our work as follows:
 
 ```
-@article{Heljakka+Solin+Kannala:2019,
+@inproceedings{Heljakka+Solin+Kannala:2019,
       title = {Towards Photographic Image Manipulation with Balanced Growing of Generative Autoencoders},
      author = {Heljakka,Ari and Solin, Arno
                and Kannala, Juho},
-    journal = {arXiv preprint arXiv:1904.06145},
-       year = {2019}
+  booktitle = {IEEE Winter Conference on Applications of Computer Vision (WACV)},
+       year = {2020}
 }
 ```
