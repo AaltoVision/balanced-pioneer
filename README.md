@@ -41,7 +41,7 @@ Video show-casing how to gradually apply various transformations on new input im
 
 <iframe width="515" height="290" src="https://www.youtube.com/embed/XhxKLkFVgjY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Code (PyTorch) with Pre-trained models: https://github.com/AaltoVision/balanced-pioneer
+Code (PyTorch) with Pre-trained models: [https://github.com/AaltoVision/balanced-pioneer]https://github.com/AaltoVision/balanced-pioneer
 
 ## Support
 
