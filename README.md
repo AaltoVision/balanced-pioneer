@@ -130,6 +130,10 @@ python -m pioneer.train -d lsun --dump_trainingset_N=20 --dump_trainingset_dir=r
 python -m pioneer.train -d celebaHQ --dump_trainingset_N=20 --dump_trainingset_dir=refCAHQ_20 --start_phase=6 --max_phase=6 --force_alpha=1.0 --train_path  /data/celeba_train.h5
 ```
 
+### Attribute manipulation
+
+For an example of how to create the attribute vectors, and how to use the pre-provided vectors, please see the examples in https://github.com/AaltoVision/balanced-pioneer/blob/master/Attribute%20Manipulation%20with%20Balanced%20PIONEER.ipynb
+
 ## Training
 
 Training will need to use the pre-configured scheduler. For new datasets, you can configure the schedule of phases, margin values and learning rates in `makeTS(...)` method of `train.py`. See the existing code for how to set them up.
