@@ -2,19 +2,19 @@
 
 ![input 1](samples/fig_manip/dot.png)
 <br/>
-<img src="samples/fig_manip/100.jpg" alt="alt text" width="15%" height="15%" style="border:5px solid black"/>
-<img src="samples/fig_manip/101.jpg" alt="alt text" width="15%" height="15%"/>
-<img src="samples/fig_manip/102.jpg" alt="alt text" width="15%" height="15%"/>
-<img src="samples/fig_manip/103.jpg" alt="alt text" width="15%" height="15%"/>
-<img src="samples/fig_manip/104.jpg" alt="alt text" width="15%" height="15%"/>
-<img src="samples/fig_manip/105.jpg" alt="alt text" width="15%" height="15%"/>
-<br/>
 <img src="samples/fig_manip/200.jpg" alt="alt text" width="15%" height="15%" style="border:5px solid black"/>
 <img src="samples/fig_manip/201.jpg" alt="alt text" width="15%" height="15%"/>
 <img src="samples/fig_manip/202.jpg" alt="alt text" width="15%" height="15%"/>
 <img src="samples/fig_manip/203.jpg" alt="alt text" width="15%" height="15%"/>
 <img src="samples/fig_manip/204.jpg" alt="alt text" width="15%" height="15%"/>
 <img src="samples/fig_manip/205.jpg" alt="alt text" width="15%" height="15%"/>
+<br/>
+<img src="samples/fig_manip/300.jpg" alt="alt text" width="15%" height="15%" style="border:5px solid black"/>
+<img src="samples/fig_manip/301.jpg" alt="alt text" width="15%" height="15%"/>
+<img src="samples/fig_manip/302.jpg" alt="alt text" width="15%" height="15%"/>
+<img src="samples/fig_manip/303.jpg" alt="alt text" width="15%" height="15%"/>
+<img src="samples/fig_manip/304.jpg" alt="alt text" width="15%" height="15%"/>
+<img src="samples/fig_manip/305.jpg" alt="alt text" width="15%" height="15%"/>
 
 Code for the paper ["Towards Photographic Image Manipulation with Balanced Growing of Generative Autoencoders"](https://arxiv.org/abs/1904.06145) [1].
 Implementation by Ari Heljakka, based on [2] (which used [3,4] and the h5tool from [5]).
