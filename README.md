@@ -132,7 +132,7 @@ python -m pioneer.train -d celebaHQ --dump_trainingset_N=20 --dump_trainingset_d
 
 ### Attribute manipulation
 
-For an example of how to create the attribute vectors, and how to use the pre-provided vectors, please see the [Jupyter Notebook] (https://github.com/AaltoVision/balanced-pioneer/blob/master/Attribute%20Manipulation%20with%20Balanced%20PIONEER.ipynb).
+For an example of how to create the attribute vectors, and how to use the pre-provided vectors, please see the [Jupyter Notebook](https://github.com/AaltoVision/balanced-pioneer/blob/master/Attribute%20Manipulation%20with%20Balanced%20PIONEER.ipynb).
 
 ## Training
 
