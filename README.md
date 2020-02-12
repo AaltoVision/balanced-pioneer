@@ -91,20 +91,20 @@ When using the pre-trained models (or replicating the earlier training runs), us
 
 CelebA-HQ, 256x256:
 ```
-python -m pioneer.train -d celebaHQ --start_iteration=25480000 --save_dir final_models/celeba/256 --test_path /data/celeba_test.h5 --sample_N=256 --reconstructions_N=10 --interpolate_N=3 --max_phase=6 --e_last_relu --testonly
+python -m pioneer.train -d celebaHQ --start_iteration=25480000 --save_dir celebaHQ256 --test_path /data/celeba_test.h5 --sample_N=256 --reconstructions_N=10 --interpolate_N=3 --max_phase=6 --e_last_relu --testonly
 ```
 
 ### Intermediate samples only:
 
 1. CelebA-HQ, 256x256:
 ```
-python -m pioneer.train -d celebaHQ --start_iteration=25480000 --save_dir final_models/celeba/256 --sample_N=16 --max_phase=6 --e_last_relu --testonly
+python -m pioneer.train -d celebaHQ --start_iteration=25480000 --save_dir celebaHQ256 --sample_N=16 --max_phase=6 --e_last_relu --testonly
 ```
 
 2. LSUN, 256x256:
 
 ```
-python -m pioneer.train -d lsun --start_iteration=25400000 --save_dir final_models/lsun/256 --sample_N=128 --max_phase=6 --e_last_relu --testonly
+python -m pioneer.train -d lsun --start_iteration=25400000 --save_dir lsun256 --sample_N=128 --max_phase=6 --e_last_relu --testonly
 ```
 
 ### Test reconstruction and interpolations of existing (any) images, with pre-trained models:
@@ -112,7 +112,7 @@ python -m pioneer.train -d lsun --start_iteration=25400000 --save_dir final_mode
 CelebAHQ 256x256:
 
 ```
-python -m pioneer.train -d celebaHQ --start_iteration=25480000 --save_dir final_models/celebaHQ/256 --reconstructions_N=10 --interpolate_N=6 --max_phase=6 --testonly --aux_inpath [my-image-path] --e_last_relu  --aux_outpath celebaHQ/out256
+python -m pioneer.train -d celebaHQ --start_iteration=25480000 --save_dir celebaHQ256 --reconstructions_N=10 --interpolate_N=6 --max_phase=6 --testonly --aux_inpath [my-image-path] --e_last_relu  --aux_outpath celebaHQ/out256
 ```
 
 Note that, for legacy reasons, images must be found at ```my-image-path/sub-directory-name/*.png``` where ```sub-directory-name``` can be anything. ```reconstructions_N``` must not exceed the number of input files available.
