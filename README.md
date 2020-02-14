@@ -52,10 +52,9 @@ For all correspondence, please contact ari.heljakka@aalto.fi.
 Please cite our work as follows:
 
 ```
-@inproceedings{Heljakka+Solin+Kannala:2019,
+@inproceedings{Heljakka+Solin+Kannala:2020,
       title = {Towards Photographic Image Manipulation with Balanced Growing of Generative Autoencoders},
-     author = {Heljakka,Ari and Solin, Arno
-               and Kannala, Juho},
+     author = {Heljakka, Ari and Solin, Arno and Kannala, Juho},
   booktitle = {IEEE Winter Conference on Applications of Computer Vision (WACV)},
        year = {2020}
 }
