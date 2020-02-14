@@ -16,10 +16,10 @@
 <img src="samples/fig_manip/304.jpg" alt="alt text" width="15%" height="15%"/>
 <img src="samples/fig_manip/305.jpg" alt="alt text" width="15%" height="15%"/>
 
-Code for the paper ["Towards Photographic Image Manipulation with Balanced Growing of Generative Autoencoders"](https://arxiv.org/abs/1904.06145) [1].
-Implementation by Ari Heljakka, based on [2] (which used [3,4] and the h5tool from [5]).
+Code for the paper:
+* Heljakka, A., Solin, A., Kannala, J. (2020). **Towards Photographic Image Manipulation with Balanced Growing of Generative Autoencoders**. In: *IEEE Winter Conference on Applications of Computer Vision*. [[arXiv]](https://arxiv.org/abs/1904.06145)
 
-The master branch of this repository may continue to be updated, and is not guaranteed compatible with the pre-trained models of [1].
+Implementation by **Ari Heljakka**, based on [[2]] (which used [[3]]-[[4]] and the h5tool from [[5]]). The master branch of this repository may continue to be updated, and is not guaranteed compatible with the pre-trained models of [[1]].
 
 ## Pre-requisites
 
@@ -171,17 +171,24 @@ Support and email replies are not always guaranteed, but we will appreciate and 
 
 ## References
 
-[1] Heljakka, A., Solin, A., Kannala, J.: Towards Photographic Image Manipulation with Balanced Growing of Generative Autoencoders. In: 2020 IEEE Winter Conference on Applications of Computer Vision, to appear. https://arxiv.org/abs/1904.06145
+1. Heljakka, A., Solin, A., Kannala, J. (2020). **Towards Photographic Image Manipulation with Balanced Growing of Generative Autoencoders**. In: *IEEE Winter Conference on Applications of Computer Vision*. [arXiv](https://arxiv.org/abs/1904.06145)
 
-[2] https://github.com/heljakka/pioneer
+2. https://github.com/heljakka/pioneer
 
-[3] https://github.com/rosinality/progressive-gan-pytorch
+3. https://github.com/rosinality/progressive-gan-pytorch
 
-[4] https://github.com/DmitryUlyanov/AGE
+4. https://github.com/DmitryUlyanov/AGE
 
-[5] https://github.com/tkarras/progressive_growing_of_gans
+5. https://github.com/tkarras/progressive_growing_of_gans
 
-[6] Miyato, T., Kataoka, T., Koyama, M., and Yoshida, Y. Spectral normalization for generative adversarial networks. In Proceedings of the International Conference on Learning Representations (ICLR), 2018.
+6. Miyato, T., Kataoka, T., Koyama, M., and Yoshida, Y (2018). **Spectral normalization for generative adversarial networks**. In *Proceedings of the International Conference on Learning Representations (ICLR)*.
+
+[1]: https://arxiv.org/abs/1904.06145
+[2]: https://github.com/heljakka/pioneer
+[3]: https://github.com/rosinality/progressive-gan-pytorch
+[4]: https://github.com/DmitryUlyanov/AGE
+[5]: https://github.com/tkarras/progressive_growing_of_gans
+[6]: https://foo
 
 ## License
 
@@ -192,10 +199,9 @@ This software is distributed under the MIT License; please refer to the file LIC
 Please cite our work as follows:
 
 ```
-@inproceedings{Heljakka+Solin+Kannala:2019,
+@inproceedings{Heljakka+Solin+Kannala:2020,
       title = {Towards Photographic Image Manipulation with Balanced Growing of Generative Autoencoders},
-     author = {Heljakka,Ari and Solin, Arno
-               and Kannala, Juho},
+     author = {Heljakka, Ari and Solin, Arno and Kannala, Juho},
   booktitle = {IEEE Winter Conference on Applications of Computer Vision (WACV)},
        year = {2020}
 }
