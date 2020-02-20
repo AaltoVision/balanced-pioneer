@@ -595,6 +595,8 @@ def makeTS(opts, session):
     ts = TrainingScheduler(opts, session)
 
     if args.data == 'celebaHQ':
+# Enabling a wide margin also in the beginning of the training sometimes helps to prevent early training collapse.
+# In such a scenario, uncommenting the following lines (and replacing the regular (0,4) range) may help.
 #        for p in range(0,2):
 #            ts.add(p*2400, _phase=p, _lr=[0.0005, 0.0005], _margin=0.20, _aux_operations=None)
 #        for p in range(2,4):
